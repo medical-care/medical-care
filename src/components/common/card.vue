@@ -3,10 +3,7 @@
     <div class="title">
       <div class="left-box">
         <span class="line"></span>
-        <span class="text">常用服务</span>
-      </div>
-      <div class="right-box">
-        <span>查看全部>></span>
+        <span class="text">{{title}}</span>
       </div>
     </div>
     <div class="content">
@@ -15,11 +12,17 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  props: {
+    title: String
+  }
+};
 </script>
 <style scoped>
 .contanier {
   width: 100%;
+  padding: 0 35px;
+  box-sizing: border-box;
 }
 .title {
   width: 100%;
@@ -31,10 +34,11 @@ export default {};
 .line {
   display: inline-block;
   height: 36px;
-  width: 10px;
+  width: 6px;
   background-color: rgba(22, 101, 192, 1);
   vertical-align: middle;
   margin-right: 10px;
+  margin-top: 12px;
 }
 .text {
   font-size: 18px;
@@ -42,8 +46,13 @@ export default {};
   vertical-align: middle;
 }
 .right-box {
-  padding-right: 40px; 
+  padding-right: 40px;
   font-size: 18px;
   vertical-align: middle;
+}
+.content {
+  padding: 20px 40px;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 </style>

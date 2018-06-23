@@ -1,19 +1,13 @@
 <template>
   <div class="contanier">
     <div class="top-box">
-      <div class="left-box">
-        太平洋首页 | 太平洋旗下业务
-      </div>
-      <div class="right-box">
-        <a>登录</a>
-        <a>注册</a>
-        <span style="margin: 0 15px;"></span>
-        <img src="../../assets/images/u4.png" />
-        <span style="vertical-align: middle;">移动太平洋</span>
-      </div>
+      <div class="left-box">太平洋保险首页</div>
+      <div class="right-box">请登陆 | 免费注册</div>
     </div>
     <div class="bottom-box">
-      <img class="logo" />
+      <div class="logo-box">
+        <img src="../../assets/images/logo.png" class="logo" />
+      </div>
       <ul class="nav">
         <li>首页</li>
         <li>社保服务</li>
@@ -24,14 +18,18 @@
         <li>关于我们</li>
       </ul>
       <div class="search-box">
-        <input />
-        <i class="icon el-icon-search"></i>
+        <Search></Search>
       </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
+import Search from "../common/search";
+export default {
+  components: {
+    Search
+  }
+};
 </script>
 
 <style  scoped>
@@ -39,21 +37,30 @@ export default {};
   width: 100%;
 }
 .top-box {
-  background-color: rgba(22, 101, 192, 1);
-  height: 40px;
-  line-height: 40px;
+  background-color: #efefef;
+  height: 30px;
+  line-height: 30px;
   display: flex;
   justify-content: space-between;
 }
 .left-box {
-  color: #fff;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #666666;
   padding-left: 50px;
 }
 .right-box {
   color: #fff;
   padding-right: 50px;
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #666666;
+  vertical-align: middle;
 }
 .right-box a {
+  font-family: PingFangSC-Regular;
+  font-size: 12px;
+  color: #666666;
   cursor: pointer;
   vertical-align: middle;
 }
@@ -66,10 +73,18 @@ export default {};
   height: 80px;
   justify-content: center;
 }
-.logo {
+.logo-box {
   width: 300px;
   height: 80px;
   flex: 0 0 300px;
+  text-align: center;
+  line-height: 80px;
+}
+.logo {
+  width: 160px;
+  height: 46px;
+  margin-top: 17px;
+  cursor: pointer;
 }
 .nav {
   flex: 1;
@@ -88,6 +103,7 @@ export default {};
   width: 300px;
   text-align: left;
   position: relative;
+  margin-top: 10px;
 }
 .search-box input {
   height: 40px;
@@ -95,13 +111,13 @@ export default {};
   outline: none;
   padding: 0 16px;
   border-radius: 20px;
-  border: solid 1px #409EFF;
+  border: solid 1px #409eff;
   position: absolute;
   top: 18px;
   left: 0;
 }
 .icon {
-  color: #409EFF;
+  color: #409eff;
   font-size: 20px;
   vertical-align: middle;
   position: absolute;
