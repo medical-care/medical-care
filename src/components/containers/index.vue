@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header>hello</Header>
-    <el-carousel height="550px">
+    <el-carousel style="padding: 0 70px;" height="550px">
       <el-carousel-item v-for="item in 4" :key="item">
         <img src="../../assets/images/luobo.png">
       </el-carousel-item>

@@ -21,7 +21,7 @@ export default {
 <style scoped>
 .contanier {
   width: 100%;
-  padding: 0 35px;
+  padding: 0 105px;
   box-sizing: border-box;
 }
 .title {
