@@ -71,7 +71,7 @@
           <div class="capacity-title">
             <a style="margin-left:30px" class='hot-pic' href="#">类似药品</a>
           </div>
-          <el-row>
+          <el-row style="padding-left:100px">
               <el-col :offset="1" :span="8" class='hot-box'><div class="grid-content bg-purple">
                 <img  src="../../assets/images/00012.jpeg"/>
                 <span>上海市长江医院</span>
