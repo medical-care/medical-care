@@ -5,7 +5,6 @@
       <div class="capacity-title">
         <a href="#">常见服务</a> | <a class="active" href="#">智能自诊</a> 
       </div>
-      
       <el-row slot="content">
         <el-col :span="4">
           <div class="illness-box">
