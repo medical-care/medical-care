@@ -109,7 +109,7 @@
           <div class="capacity-title">
             <a style="margin-left:30px" class='hot-pic' href="#">著名内科医院</a>
           </div>
-          <el-row>
+          <el-row style="padding-left:120px">
               <el-col :offset="1" :span="8" class='hot-box'><div class="grid-content bg-purple">
                 <img  src="../../assets/images/0006.jpeg"/>
                 <span>上海市长江医院</span>
@@ -130,7 +130,7 @@
           <div class="capacity-title">
             <a style="margin-left:30px" class='hot-pic' href="#">治疗心肌炎常用药</a>
           </div>
-          <el-row>
+          <el-row style="padding-left:120px">
               <el-col :offset="1" :span="8" class='hot-box'><div class="grid-content bg-purple">
                 <img  src="../../assets/images/00012.jpeg"/>
                 <span>上海市长江医院</span>
