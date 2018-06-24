@@ -47,11 +47,11 @@ export default {
   font-family: PingFangSC-Regular;
   font-size: 12px;
   color: #666666;
-  padding-left: 50px;
+  padding-left: 70px;
 }
 .right-box {
   color: #fff;
-  padding-right: 50px;
+  padding-right: 70px;
   font-family: PingFangSC-Regular;
   font-size: 12px;
   color: #666666;
@@ -72,6 +72,7 @@ export default {
   line-height: 80px;
   height: 80px;
   justify-content: center;
+  background-color: #fff;
 }
 .logo-box {
   width: 300px;

@@ -4,7 +4,7 @@
       <img class="logo" src="../../assets/images/logo.png" />
     </div> -->
     <div class="right-box">
-      <div class="item" style="margin-left:495px">
+      <div class="item">
         <img src="../../assets/images/my.png" />
         <div class="item-right-box">
           <div style="font-size: 24px;color: #666666;margin-bottom: 8px;">关于我们</div>
@@ -65,6 +65,10 @@ export default {};
 .right-box {
   flex: 1;
   display: flex;
+  margin-left: 50%; 
+  margin-right: 50%; 
+  margin-top: 20px; 
+  transform: translate(-50%,0%);
 }
 .item {
   flex: 0 0 230px;

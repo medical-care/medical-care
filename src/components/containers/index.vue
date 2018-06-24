@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header>hello</Header>
-    <el-carousel height="550px">
+    <el-carousel style="padding: 0 70px;" height="550px">
       <el-carousel-item v-for="item in 4" :key="item">
         <img src="../../assets/images/luobo.png">
       </el-carousel-item>
@@ -9,25 +9,25 @@
     <Card title="常用服务">
       <el-row slot="content">
         <el-col :span="4">
-          <div class="service-box">
+          <div @click="() => skip('/capacity')" class="service-box">
             <img slot="content" src="../../assets/images/medical-history (1)@2x.png" />
-            <div>社保政策查询</div>
+            <div>智能自诊</div>
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
-          <div class="service-box">
+          <div @click="() => skip('/social-security-query')" class="service-box">
             <img slot="content" src="../../assets/images/hospital@2x.png" />
             <div>社保政策查询</div>
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
-          <div class="service-box">
+          <div @click="() => skip('/expense')" class="service-box">
             <img slot="content" src="../../assets/images/pills-1@2x.png" />
             <div>药品报销查询</div>
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
-          <div class="service-box">
+          <div @click="() => skip('/social-security-place-query')" class="service-box">
             <img slot="content" src="../../assets/images/medical-history (1)@2x.png" />
             <div>社保网点咨询</div>
           </div>
@@ -154,7 +154,7 @@
       <div slot="content" class="drug-list">
         <el-row :gutter="20">
           <el-col :span="8">
-            <div @click="currentIndex=1"  class="healthy-box">
+            <div @click="currentIndex=1" class="healthy-box">
               <img :class="{selected: currentIndex===1 }" src="../../assets/images/0000.jpg" />
               <div class="healthy-desc">
                 <span style="font-size: 26px;color: #fff;">健康体检卡B 基础套餐</span>
@@ -232,6 +232,11 @@ export default {
       currentTab: 1,
       currentIndex: 2
     };
+  },
+  methods: {
+    skip(path) {
+      this.$router.push({ path });
+    }
   }
 };
 </script>
