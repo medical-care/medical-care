@@ -3,7 +3,7 @@
     <div class="title">
       <div class="left-box">
         <span class="line"></span>
-        <span class="text">{{title}}</span>
+        <span @click="skip" class="text">{{title}}</span>
       </div>
     </div>
     <div class="content">
@@ -15,6 +15,15 @@
 export default {
   props: {
     title: String
+  },
+  methods: {
+    skip() {
+      if(this.title == "健康商城") {
+        this.$router.push({path: "/health-mall"})
+      } if(this.title == "药品商城") {
+        this.$router.push({path: "/drugShop"})
+      }
+    }
   }
 };
 </script>
@@ -44,6 +53,7 @@ export default {
   font-size: 18px;
   font-weight: bold;
   vertical-align: middle;
+  cursor: pointer;
 }
 .right-box {
   padding-right: 40px;

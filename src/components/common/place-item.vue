@@ -51,18 +51,14 @@ export default {};
 .item-desc {
   position: absolute;
   bottom: 0;
-  line-height: 26px;
-  font-size: 20px;
-  color: #333333;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
+  height: 150px;
+  display: flex;
+  flex-direction: column;;
 }
 .item-place {
   font-family: PingFangSC-Regular;
   line-height: 50px;
+  flex: 1;
 }
 i {
   color: #2873c8;
