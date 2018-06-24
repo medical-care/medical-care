@@ -1,11 +1,11 @@
 <template>
   <div class="contanier">
-    <div class="logo-box">
+    <!-- <div class="logo-box">
       <img class="logo" src="../../assets/images/logo.png" />
-    </div>
+    </div> -->
     <div class="right-box">
-      <div class="item">
-        <img src="../../assets/images/u27.png" />
+      <div class="item" style="margin-left:495px">
+        <img src="../../assets/images/my.png" />
         <div class="item-right-box">
           <div style="font-size: 24px;color: #666666;margin-bottom: 8px;">关于我们</div>
           <div class="text">公司简介</div>
@@ -14,7 +14,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="../../assets/images/u27.png" />
+        <img src="../../assets/images/help.png" />
         <div class="item-right-box">
           <div style="font-size: 24px;color: #666666;margin-bottom: 8px;">帮助中心</div>
           <div class="text">隐私条款</div>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="item">
-        <img src="../../assets/images/u27.png" />
+        <img src="../../assets/images/info.png" />
         <div class="item-right-box">
           <div style="font-size: 24px;color: #666666;margin-bottom: 8px;">旗下公司</div>
           <div class="text">财产保险</div>
