@@ -6,6 +6,19 @@
         <img src="../../assets/images/luobo.png">
       </el-carousel-item>
     </el-carousel>
+    <div class="login-box">
+      <div style="border-top-left-radius: 4px;border-top-right-radius: 4px;line-height: 48px; text-align: center; background-color: #479dfe;color: #fff;">用户登录</div>
+      <div style="padding: 28px 20px;">
+        <el-input placeholder="请输入用户名">
+          <i slot="prefix" class="el-input__icon el-icon-mobile-phone"></i>
+        </el-input>
+        <div style="margin: 20px 0;"></div>
+        <el-input placeholder="请输入密码">
+          <i slot="prefix" class="el-input__icon el-icon-goods"></i>
+        </el-input>
+        <el-button style="width: 100%; margin: 0 auto; margin-top:60px;" type="primary">登录</el-button>
+      </div>
+    </div>
     <Card title="常用服务">
       <el-row slot="content">
         <el-col :span="4">
@@ -40,7 +53,7 @@
         </el-col>
       </el-row>
     </Card>
-    <Card title="疾病专区">
+    <Card title="智能自诊">
       <el-row slot="content">
         <el-col :span="4">
           <div class="illness-box">
@@ -233,6 +246,11 @@ export default {
       currentIndex: 2
     };
   },
+  mounted() {
+    this.$axios.get("/api/hospital/getAll/0").then(res => {
+      console.log(res.data);
+    })
+  },
   methods: {
     skip(path) {
       this.$router.push({ path });
@@ -245,13 +263,6 @@ export default {
   width: 100%;
 }
 
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
-
-.el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
-}
 .title-box {
   display: flex;
   height: 60px;
@@ -394,6 +405,15 @@ export default {
   color: #fff;
   cursor: pointer;
   font-size: 20px;
+}
+.login-box {
+  position: absolute;
+  top: 240px;
+  right: 160px;
+  width: 300px;
+  z-index: 9999;
+  background-color: #fff;
+  border-radius: 4px;
 }
 </style>
 
