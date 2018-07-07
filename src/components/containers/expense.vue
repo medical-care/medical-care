@@ -69,9 +69,9 @@
 
           <div class="card-box">
           <div class="capacity-title">
-            <a style="margin-left:30px" class='hot-pic' href="#">类似药品</a>
+            <a style="margin-left:calc(30/1920*100vw)" class='hot-pic' href="#">类似药品</a>
           </div>
-          <el-row style="padding-left:100px">
+          <el-row style="padding-left:calc(100/1920*100vw)">
               <el-col :offset="1" :span="8" class='hot-box'><div class="grid-content bg-purple">
                 <img  src="../../assets/images/00012.jpeg"/>
                 <span>上海市长江医院</span>
@@ -178,14 +178,14 @@ export default {
   background-color: #efefef;
 }
 .capacity-title{
-  margin: 20px 0;
+  margin: calc(20/1080*100vh) 0;
 }
 .expense{
-  padding: 40px 30px;
+  padding: calc(40/1080*100vh) calc(30/1920*100vw);
  background-color: #fff;
 }
 .pagination{
-  margin-top: 50px;
+  margin-top: calc(50/1080*100vh);
   margin-left: 50%;
   transform: translate(-50%);
 }

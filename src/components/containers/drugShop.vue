@@ -2,7 +2,7 @@
   <div>
     <Header1>hello</Header1>
     <div class="content" style="padding:0">
-      <div class="clearfix" style="padding:30px 0 0 260px">
+      <div class="clearfix" style="padding:calc(30/1080*100vh) 0 0 calc(260/1080*100vh)">
         <div class="logo fl">
           <img src="../../assets/images/logo.png" class="logo" />
           <a href="#">药品商城</a>
@@ -38,7 +38,7 @@
       </ul>
     </div>
     <div class="banner w">
-      <el-carousel height="550px">
+      <el-carousel height="calc(550/1080*100vh)">
         <el-carousel-item v-for="item in 4" :key="item">
           <img width="100%" height="100%" src="../../assets/images/00026.png">
         </el-carousel-item>
@@ -143,36 +143,36 @@ export default {
   color: #3271c0;
 }
 .logo_r {
-  margin-left: 153px;
+  margin-left:calc(153/1920*100vw);
 }
 .search {
   position: relative;
 }
 .search input {
-  width: 809px;
-  height: 47px;
+  width: calc(809/1920*100vw);
+  height: calc(47/1080*100vh);
   outline: none;
-  border: 3px solid #fa344d;
-  border-radius: 30px;
-  font-size: 22px;
+  border: calc(3/1080*100vh) solid #fa344d;
+  border-radius: calc(30/1920*100vw);
+  font-size: calc(22/1920*100vw);
   text-indent: 2em;
 }
 .search button {
-  width: 99px;
-  height: 47px;
+  width: calc(99/1920*100vw);
+  height: calc(47/1080*100vh);
   background: #fa344d;
-  border-radius: 34px;
+  border-radius: calc(34/1080*100vh);
   color: #fff;
-  font-size: 22px;
+  font-size: calc(22/1080*100vh);
   outline-style: none;
   list-style-type: none;
   border: none;
   position: absolute;
-  top: 3px;
-  right: 2px;
+  top: calc(3/1080*100vh);
+  right: calc(2/1920*100vw);
 }
 .hotwords {
-  margin-top: 6px;
+  margin-top: calc(6/1080*100vh);
   margin-left: 2em;
   color: #999;
 }
@@ -180,57 +180,57 @@ export default {
   color: #999;
 }
 .nav-box {
-  height: 47px;
+  height: calc(47/1080*100vh);
   background: #fa344d;
-  line-height: 47px;
+  line-height: calc(47/1080*100vh);
   width: 100%;
-  margin-top: 30px;
+  margin-top: calc(30/1080*100vh);
 }
 .nav {
-  margin-left: 650px;
+  margin-left: calc(650/1920*100vw);
 }
 .nav li {
   float: left;
-  font-size: 22px;
+  font-size: calc(22/1080*100vh);
   text-align: center;
   cursor: pointer;
-  margin-right: 30px;
+  margin-right: calc(30/1920*100vw);
   color: #fff;
 }
 .banner {
   position: relative;
 }
 .allShops {
-  width: 309px;
+  width: calc(309/1920*100vw);
   opacity: 0.7;
   background: #05314a;
   position: absolute;
-  top: -47px;
+  top: calc(-47/1080*100vh);
   left: 0;
   z-index: 99999;
 }
 .allShops h3 {
   background: #cd0f25;
-  width: 309px;
-  height: 47px;
-  line-height: 47px;
+  width: calc(309/1920*100vw);
+  height: calc(47/1080*100vh);
+  line-height: calc(47/1080*100vh);
   text-align: center;
   color: #fff;
   font-weight: 700;
 }
 .allShops ul {
-  padding: 10px 0 0 45px;
+  padding: calc(10/1080*100vh) 0 0 calc(45/1080*100vh);;
 }
 .allShops ul li {
-  height: 60px;
+  height: calc(60/1080*100vh);;
 }
 .allShops ul li label {
-  font-size: 20px;
+  font-size: calc(20/1920*100vw);
   color: #fff;
-  margin-right: 15px;
+  margin-right: calc(15/1920*100vw);
 }
 .allShops ul li span {
-  font-size: 16px;
+  font-size: calc(16/1920*100vw);
   color: #fff;
   cursor: pointer;
 }

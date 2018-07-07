@@ -10,77 +10,77 @@
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">高血压</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0000.jpg" />
+            <img style="width: 100%;height:calc(150/1080*100vh);" src="../../assets/images/0000.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">流行感冒</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0001.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0001.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">减肥瘦身</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0002.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0002.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">高血压</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0000.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0000.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">流行感冒</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0001.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh)x;" src="../../assets/images/0001.jpg" />
           </div>
         </el-col>
       </el-row>
-      <el-row style="margin-top: 16px;" slot="content">
+      <el-row style="margin-top: calc(16/1080*100vh);" slot="content">
         <el-col :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">高血压</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0000.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0000.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">流行感冒</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0001.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0001.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">减肥瘦身</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0002.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0002.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">高血压</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0000.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0000.jpg" />
           </div>
         </el-col>
         <el-col :offset="1" :span="4">
           <div class="illness-box">
             <img class="text-bg" src="../../assets/images/rectangle.png">
             <span class="illness-name">流行感冒</span>
-            <img style="width: 100%;height: 150px;" src="../../assets/images/0001.jpg" />
+            <img style="width: 100%;height: calc(150/1080*100vh);" src="../../assets/images/0001.jpg" />
           </div>
         </el-col>
       </el-row>
 
-    <div class="symptom clearfix" style="background: #fff;margin-top:10px">
+    <div class="symptom clearfix" style="background: #fff;margin-top:calc(10/1080*100vh)">
       <div class="symptom_l fl">
         <p>主要症状</p>
         <p>伴随症状</p>
@@ -99,16 +99,16 @@
         </p>
         </div>
       </div>
-      <div style="background: #fff;margin-top:20px">
+      <div style="background: #fff;margin-top:calc(20/1080*100vh)">
       <div class="may-symptom">
         <p> <label>可能疾病:</label><span>心肌炎</span> <label>诊科室:</label><span>内科 、 心内科</span></p>
         
     </div>
     <div>
           <div class="capacity-title">
-            <a style="margin-left:30px" class='hot-pic' href="#">著名内科医院</a>
+            <a style="margin-left:calc(30/1920*100vw)" class='hot-pic' href="#">著名内科医院</a>
           </div>
-          <el-row style="padding-left:120px">
+          <el-row style="padding-left:calc(120/1920*100vw)">
               <el-col :offset="1" :span="8" class='hot-box'><div class="grid-content bg-purple">
                 <img  src="../../assets/images/0006.jpeg"/>
                 <span>上海市长江医院</span>
@@ -127,9 +127,9 @@
         
         <div class="card-box">
           <div class="capacity-title">
-            <a style="margin-left:30px" class='hot-pic' href="#">治疗心肌炎常用药</a>
+            <a style="margin-left:calc(30/1920*100vw)" class='hot-pic' href="#">治疗心肌炎常用药</a>
           </div>
-          <el-row style="padding-left:120px">
+          <el-row style="padding-left:calc(120/1920*100vw)">
               <el-col :offset="1" :span="8" class='hot-box'><div class="grid-content bg-purple">
                 <img  src="../../assets/images/00012.jpeg"/>
                 <span>上海市长江医院</span>
@@ -174,55 +174,56 @@ export default {
   background-color: #f4f4f4;
 }
 .capacity-title{
-  margin: 20px 0;
-  height: 30px;
-   font-size: 22px;
-  line-height: 30px;
+  margin: calc(20/1080*100vh) 0; 
+  height: calc(30/1080*100vh) ;
+   font-size:  calc(22/1920*100vw);
+  line-height:  calc(30/1080*100vh);
   color: #666666;
 }
 .capacity-title a{
   font-family: 'PingFangSC-Regular';
-  font-size: 22px;
+  font-size: calc(22/1920*100vw);
   color: #666666;
 }
 .capacity-title .active{
   color: #2873C8;
 }
 .symptom{
-  height: 296px;
-  padding: 45px 20px;
+  /* height: 296px; */
+  height: calc(296/1080*100vh);
+  padding: calc(45/1080*100vh) calc(20/1920*100vw);
   box-sizing: border-box;
 }
 .symptom_l{
-  width: 148px;
-  height: 206px;
+  width: calc(148/1920*100vw);
+  height:calc(206/1080*100vh);
   border-right: 2px solid #D8D8D8;
-  padding: 10px;
+  padding: calc(10/1080*100vh);
   box-sizing: border-box;
 }
 .symptom_l p{
-  margin-bottom: 50px;
+  margin-bottom: calc(50/1080*100vh);
   font-family: PingFangSC-Regular;
-  font-size: 22px;
+  font-size: calc(22/1920*100vw);
   color: #333333;
 }
 .symptom_r {
   width: 80%;
-  margin-left: 53px;
+  margin-left: calc(53/1920*100vw);
 }
 .symptom_r p{
-  margin-bottom: 20px;
+  margin-bottom: calc(20/1080*100vh);
 }
 .symptom_r p span{
   display: inline-block;
-  width: 150px;
-  height: 52px;
+  width: calc(150/1920*100vw);
+  height: calc(52/1080*100vh);
   color: #666;
   border: 1px solid #666666;
-  border-radius: 30px;
+  border-radius: calc(30/1080*100vh);;
   text-align: center;
-  line-height: 52px;
-  margin-right: 30px;
+  line-height: calc(52/1080*100vh);
+  margin-right: calc(30/1920*100vw);
   cursor: pointer;
 }
 .symptom_r p .active{
@@ -230,30 +231,30 @@ export default {
   border-color: #2873C8;
 }
 .symptom_r p .more{
-  margin-right: 30px;
+  margin-right: calc(30/1920*100vw);
   color: #2873C8;
   border-color: #2873C8;
 }
 .may-symptom{
-  padding: 20px 30px;
-  height: 30px;
+  padding: calc(20/1080*100vh) calc(30/1920*100vw);
+  height: calc(30/1080*100vh);
   box-sizing: border-box;
   color: #333;
 }
 .may-symptom label{
-  margin-right: 30px;
+  margin-right: calc(30/1920*100vw);
 }
 .may-symptom span{
   color: #2873C8;
-  margin-right: 60px;
+  margin-right: calc(60/1920*100vw);
 }
 .capacity-title .hot-pic{
   color: #333;
 }
 .hot-box{
-  width: 347px;
-  height: 349px;
-  margin-right: 80px;
+  width: calc(347/1920*100vw);
+  height: calc(349/1080*100vh);
+  margin-right: calc(80/1920*100vw);
   text-align: center;
   position: relative;
 }
@@ -261,31 +262,31 @@ export default {
   text-align: center;
 }
 .hot-box img{
-  width: 347px;
-  height: 309px;
+ width: calc(347/1920*100vw);
+  height: calc(309/1080*100vh);
 }
 .hot-box span{
   color: #333;
   margin: 0;
 }
 .card-box{
-  margin-top: 50px;
+  margin-top: calc(50/1080*100vh);
 }
 
 .hot-box i{
   display: inline-block;
-  width: 87px;
-  height: 40px;
+  width: calc(87/1920*100vw);
+  height: calc(40/1080*100vh);
   background: #F65353;
   color: #fff;
   position: absolute;
   top: 0;
   right: 0;
   text-align: center;
-  line-height: 40px;
+  line-height: calc(40/1080*100vh);
 }
 .contanier[data-v-f7fb3e28] {
-  margin-top: 20px;
+  margin-top: calc(20/1080*100vh);
 }
 </style>
 

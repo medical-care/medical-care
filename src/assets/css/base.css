@@ -23,8 +23,8 @@ ul li{
 	list-style: none;
 }
 .content{
-	padding: 20px 70px;
-	font-size: 22px;
+	padding: calc(20/1080*100vh) calc(70/1920*100vw);
+	font-size: calc(22/1920*100vw);
 	color: #666;
 }
 a{
@@ -33,19 +33,19 @@ a{
 	color: #666666;
 }
 .capacity-title{
-  margin: 20px 0;
-  height: 30px;
-   font-size: 22px;
-  line-height: 30px;
+  margin: calc(20/1080*100vh) 0;
+  height:calc(30/1080*100vh);
+   font-size: calc(22/1920*100vw);
+  line-height: calc(30/1080*100vh);
   color: #666666;
 }
 .capacity-title .active{
   color: #2873C8;
 }
 .hot-box{
-  width: 347px;
-  height: 349px;
-  margin-right: 80px;
+  width: calc(347/1920*100vw);
+  height: calc(349/1080*100vh);
+  margin-right: calc(80/1920*100vw);
   text-align: center;
   position: relative;
 }
@@ -53,30 +53,30 @@ a{
   text-align: center;
 }
 .hot-box img{
-  width: 347px;
-  height: 309px;
+  width: calc(347/1920*100vw);
+  height: calc(309/1080*100vh);
 }
 .hot-box span{
   color: #333;
   margin: 0;
 }
 .card-box{
-  margin-top: 50px;
+  margin-top: calc(50/1080*100vh);
 }
 
 .hot-box i{
   display: inline-block;
-  width: 87px;
-  height: 40px;
+  width: calc(87/1920*100vw);
+  height:calc(40/1080*100vh);
   background: #F65353;
   color: #fff;
   position: absolute;
   top: 0;
   right: 0;
   text-align: center;
-  line-height: 40px;
+  line-height: calc(40/1080*100vh);
 }
 .w{
-	width: 1368px;
+	width: calc(1368/1920*100vw);
 	margin: 0 auto;
 }
